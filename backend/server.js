@@ -25,7 +25,7 @@ const pool = new Pool({
 const ticketsRouterFactory = require('./routes/tickets');
 const adminRouterFactory = require('./routes/admin');
 
-const ticketsRouter = ticketsRouterFactory(pool, APP_BASE_URL);
+const ticketsRouter = ticketsRouterFactory(pool, APP_TICKET_URL);
 
 const jwtMiddleware = createJwtMiddleware(AUTH0_AUDIENCE, AUTH0_DOMAIN);
 
