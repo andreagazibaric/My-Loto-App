@@ -13,6 +13,7 @@ const PORT = process.env.PORT || 4000;
 const APP_BASE_URL = process.env.APP_BASE_URL || 'http://localhost:3000';
 const AUTH0_DOMAIN = process.env.AUTH0_DOMAIN; 
 const AUTH0_AUDIENCE = process.env.AUTH0_AUDIENCE;
+const APP_TICKET_URL = process.env.APP_TICKET_URL;
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
