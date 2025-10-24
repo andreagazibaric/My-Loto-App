@@ -45,7 +45,7 @@ module.exports = (dbClient, APP_BASE_URL) => {
       const ticketUuid = insertRes.rows[0].uuid;
 
       //const ticketUrl = `http://localhost:3000/ticket/${ticketUuid}`;
-      const ticketUrl = `${APP_BASE_URL}/ticket/${ticketUuid}`;
+      const ticketUrl = `${APP_TICKET_URL}/ticket/${ticketUuid}`;
 
       const pngBuffer = await QRCode.toBuffer(ticketUrl, { type: 'png', errorCorrectionLevel: 'M' });
 
