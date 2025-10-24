@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Verdana', sans-serif; 
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  color: rgb(77, 44, 92);
+}
+
+.navbar {
+  background-color: #3d3c52;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.navbar a:hover {
+  transform: scale(1.05);
+}
+
+.login {
+  background-color: rgb(255, 247, 236);
+  border-radius: 3px;
+  border: 0px;
+  padding: 4px 7px;
+  font-weight: bold;
+}
+
+.login:hover {
+  background-color: rgb(194, 185, 172);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.user {
+  color: rgb(206, 200, 192);
+}
+
+.current {
+  color: rgb(77, 44, 92);
+}
+
+.submitbtn {
+  background-color: rgb(255, 247, 236);
+  border-radius: 3px;
+  border: 1px solid #201f26;
+  padding: 4px 7px;
+  font-weight: bold;
+}
+
+.submitbtn:hover {
+  background-color: rgb(194, 185, 172);
+  transform: scale(1.05);
+  cursor: pointer;
+}
