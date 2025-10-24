@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const QRCode = require('qrcode');
 
-module.exports = (dbClient, APP_BASE_URL) => {
+module.exports = (dbClient, APP_TICKET_URL) => {
   router.post('/', async (req, res) => {
     try {
       const { personal_id, numbers } = req.body;
